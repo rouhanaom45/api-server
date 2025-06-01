@@ -5,7 +5,7 @@ import json
 import asyncio
 
 # Configuration
-MAX_CLIENTS_PER_ITEM = 4  # Each item serves 4 clients before rotating
+MAX_CLIENTS_PER_ITEM = 302  # Each item serves 4 clients before rotating
 USAGE_FILE = "item_usage.txt"  # File to store usage data persistently
 
 # Initialize FastAPI app
